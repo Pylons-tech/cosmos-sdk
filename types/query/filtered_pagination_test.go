@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/store/prefix"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/address"
+	"github.com/Pylons-tech/cosmos-sdk/types/query"
+	"github.com/Pylons-tech/cosmos-sdk/x/bank/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 var addr1 = sdk.AccAddress([]byte("addr1"))

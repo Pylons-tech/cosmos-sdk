@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
 )
 
 var (

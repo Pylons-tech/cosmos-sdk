@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/client"
 )
 
 // Default constants

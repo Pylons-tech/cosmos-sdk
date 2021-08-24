@@ -15,14 +15,14 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	"github.com/Pylons-tech/cosmos-sdk/client/input"
+	"github.com/Pylons-tech/cosmos-sdk/server"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/module"
+	"github.com/Pylons-tech/cosmos-sdk/x/genutil"
+	stakingtypes "github.com/Pylons-tech/cosmos-sdk/x/staking/types"
 	"github.com/cosmos/go-bip39"
 )
 

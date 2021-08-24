@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/authz"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 func TestGenericAuthorization(t *testing.T) {

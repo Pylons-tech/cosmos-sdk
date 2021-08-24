@@ -8,9 +8,9 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	stakingtypes "github.com/Pylons-tech/cosmos-sdk/x/staking/types"
 )
 
 // NewGenesisState creates a new GenesisState object

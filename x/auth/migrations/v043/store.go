@@ -27,14 +27,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
-	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/Pylons-tech/cosmos-sdk/baseapp"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/vesting/exported"
+	vestingtypes "github.com/Pylons-tech/cosmos-sdk/x/auth/vesting/types"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
+	stakingtypes "github.com/Pylons-tech/cosmos-sdk/x/staking/types"
 )
 
 const (

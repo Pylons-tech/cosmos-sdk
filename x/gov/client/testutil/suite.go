@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/testutil"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	clitestutil "github.com/Pylons-tech/cosmos-sdk/testutil/cli"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/network"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/gov/client/cli"
+	"github.com/Pylons-tech/cosmos-sdk/x/gov/types"
 )
 
 type IntegrationTestSuite struct {

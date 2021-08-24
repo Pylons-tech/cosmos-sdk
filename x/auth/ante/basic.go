@@ -1,14 +1,14 @@
 package ante
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/Pylons-tech/cosmos-sdk/codec/legacy"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/legacytx"
+	authsigning "github.com/Pylons-tech/cosmos-sdk/x/auth/signing"
 )
 
 // ValidateBasicDecorator will call tx.ValidateBasic, msg.ValidateBasic(for each msg inside tx)

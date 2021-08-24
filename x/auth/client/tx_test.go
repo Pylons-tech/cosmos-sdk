@@ -7,17 +7,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	cryptocodec "github.com/Pylons-tech/cosmos-sdk/crypto/codec"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	"github.com/Pylons-tech/cosmos-sdk/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	authclient "github.com/Pylons-tech/cosmos-sdk/x/auth/client"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/legacytx"
+	authtypes "github.com/Pylons-tech/cosmos-sdk/x/auth/types"
 )
 
 var (

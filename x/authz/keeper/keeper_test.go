@@ -8,12 +8,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/baseapp"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/authz"
+	"github.com/Pylons-tech/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 var bankSendAuthMsgType = banktypes.SendAuthorization{}.MsgTypeURL()

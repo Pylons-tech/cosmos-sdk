@@ -3,10 +3,10 @@ package keeper
 import (
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/mint/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/mint/types"
+	paramtypes "github.com/Pylons-tech/cosmos-sdk/x/params/types"
 )
 
 // Keeper of the mint store

@@ -66,7 +66,7 @@ This is a general example of how simulations are run. For more specific examples
 check the SDK [Makefile](https://github.com/cosmos/cosmos-sdk/blob/v0.40.0/Makefile#L251-L287).
 
 ```bash
- $ go test -mod=readonly github.com/cosmos/cosmos-sdk/simapp \
+ $ go test -mod=readonly github.com/Pylons-tech/cosmos-sdk/simapp \
   -run=TestApp<simulation_command> \
   ...<flags>
   -v -timeout 24h

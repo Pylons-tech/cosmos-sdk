@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/version"
+	"github.com/Pylons-tech/cosmos-sdk/x/authz"
+	bank "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

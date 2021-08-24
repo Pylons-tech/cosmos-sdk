@@ -5,7 +5,7 @@
 package v036
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
 )
 
 const ModuleName = "supply"

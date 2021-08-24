@@ -1,7 +1,7 @@
 package group
 
 import (
-	"github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/types/errors"
 )
 
 var (

@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	authtypes "github.com/Pylons-tech/cosmos-sdk/x/auth/types"
 )
 
 // DistributionKeeper expected distribution keeper (noalias)

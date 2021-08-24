@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	kmultisig "github.com/Pylons-tech/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/types/multisig"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	signingtypes "github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/signing"
 )
 
 // TxConfigTestSuite provides a test suite that can be used to test that a TxConfig implementation is correct.

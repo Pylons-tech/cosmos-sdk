@@ -12,16 +12,16 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/simulation"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	codectypes "github.com/Pylons-tech/cosmos-sdk/codec/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/module"
+	simtypes "github.com/Pylons-tech/cosmos-sdk/types/simulation"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/client/cli"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/keeper"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/simulation"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/types"
 )
 
 var (

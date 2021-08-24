@@ -10,9 +10,9 @@ with particular kinds of accounts.
 
    ```go
    import (
-      "github.com/cosmos/cosmos-sdk/x/evidence"
-      evidencekeeper "github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-      evidencetypes "github.com/cosmos/cosmos-sdk/x/evidence/types"
+      "github.com/Pylons-tech/cosmos-sdk/x/evidence"
+      evidencekeeper "github.com/Pylons-tech/cosmos-sdk/x/evidence/keeper"
+      evidencetypes "github.com/Pylons-tech/cosmos-sdk/x/evidence/types"
    )
    ```
 

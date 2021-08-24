@@ -1,11 +1,11 @@
 package std
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/codec/types"
+	cryptocodec "github.com/Pylons-tech/cosmos-sdk/crypto/codec"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	txtypes "github.com/Pylons-tech/cosmos-sdk/types/tx"
 )
 
 // RegisterLegacyAminoCodec registers types with the Amino codec.

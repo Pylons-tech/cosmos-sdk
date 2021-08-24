@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
+	"github.com/Pylons-tech/cosmos-sdk/snapshots"
+	"github.com/Pylons-tech/cosmos-sdk/snapshots/types"
 )
 
 func checksums(slice [][]byte) [][]byte {

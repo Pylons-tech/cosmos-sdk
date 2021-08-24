@@ -1,12 +1,12 @@
 package v043
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v040auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v040"
-	v040bank "github.com/cosmos/cosmos-sdk/x/bank/migrations/v040"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/store/prefix"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	v040auth "github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/v040"
+	v040bank "github.com/Pylons-tech/cosmos-sdk/x/bank/migrations/v040"
+	"github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 // migrateSupply migrates the supply to be stored by denom key instead in a

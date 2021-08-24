@@ -13,13 +13,13 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/Pylons-tech/cosmos-sdk/codec/types"
+	"github.com/Pylons-tech/cosmos-sdk/snapshots"
+	"github.com/Pylons-tech/cosmos-sdk/store"
+	"github.com/Pylons-tech/cosmos-sdk/store/rootmulti"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/legacytx"
 )
 
 const (

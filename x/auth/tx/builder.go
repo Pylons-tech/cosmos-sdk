@@ -3,15 +3,15 @@ package tx
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	codectypes "github.com/Pylons-tech/cosmos-sdk/codec/types"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/ante"
+	authsigning "github.com/Pylons-tech/cosmos-sdk/x/auth/signing"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

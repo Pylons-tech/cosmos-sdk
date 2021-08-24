@@ -1,8 +1,8 @@
 package client
 
 import (
-	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
-	"github.com/cosmos/cosmos-sdk/x/params/client/cli"
+	govclient "github.com/Pylons-tech/cosmos-sdk/x/gov/client"
+	"github.com/Pylons-tech/cosmos-sdk/x/params/client/cli"
 )
 
 // ProposalHandler is the param change proposal handler.

@@ -1,12 +1,12 @@
 package v044
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/store/prefix"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/address"
+	v043 "github.com/Pylons-tech/cosmos-sdk/x/bank/migrations/v043"
+	"github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 // MigrateStore performs in-place store migrations from v0.43 to v0.44. The
@@ -80,7 +80,8 @@ func migrateDenomMetadata(store sdk.KVStore) error {
 	for ; oldDenomMetaDataIter.Valid(); oldDenomMetaDataIter.Next() {
 		oldKey := oldDenomMetaDataIter.Key()
 		// old key: prefix_bytes | denom_bytes | denom_bytes
-		newKey := append(types.DenomMetadataPrefix, oldKey[:len(oldKey)/2+1]...)
+		newKey := types.DenomMetadataPrefix
+		newKey = append(newKey, oldKey[:len(oldKey)/2+1]...)
 
 		store.Set(newKey, oldDenomMetaDataIter.Value())
 		oldDenomMetaDataStore.Delete(oldDenomMetaDataIter.Key())

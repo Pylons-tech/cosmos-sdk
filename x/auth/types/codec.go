@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/codec/types"
+	cryptocodec "github.com/Pylons-tech/cosmos-sdk/crypto/codec"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/legacytx"
 )
 
 // RegisterLegacyAminoCodec registers the account interfaces and concrete types on the

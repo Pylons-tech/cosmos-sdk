@@ -3,11 +3,11 @@ package feegrant
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/Pylons-tech/cosmos-sdk/codec/legacy"
+	"github.com/Pylons-tech/cosmos-sdk/codec/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/legacytx"
 )
 
 var (

@@ -8,17 +8,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	authvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keyring"
+	"github.com/Pylons-tech/cosmos-sdk/server"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	authtypes "github.com/Pylons-tech/cosmos-sdk/x/auth/types"
+	authvesting "github.com/Pylons-tech/cosmos-sdk/x/auth/vesting/types"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/Pylons-tech/cosmos-sdk/x/genutil/types"
 )
 
 const (
@@ -41,8 +41,7 @@ contain valid denominations. Accounts may optionally be supplied with vesting pa
 		RunE: func(cmd *cobra.Command, args []string) error {
 			clientCtx := client.GetClientContextFromCmd(cmd)
 			depCdc := clientCtx.Codec
-			cdc := depCdc.(codec.Codec)
-
+			cdc := depCdc.(codec.Codec)	//nolint
 			serverCtx := server.GetServerContextFromCmd(cmd)
 			config := serverCtx.Config
 

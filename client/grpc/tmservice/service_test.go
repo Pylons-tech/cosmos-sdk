@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	qtypes "github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/Pylons-tech/cosmos-sdk/client/grpc/tmservice"
+	codectypes "github.com/Pylons-tech/cosmos-sdk/codec/types"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/network"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/rest"
+	qtypes "github.com/Pylons-tech/cosmos-sdk/types/query"
+	"github.com/Pylons-tech/cosmos-sdk/version"
 )
 
 type IntegrationTestSuite struct {

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	codectypes "github.com/Pylons-tech/cosmos-sdk/codec/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/feegrant"
 )
 
 func TestMsgGrantAllowance(t *testing.T) {

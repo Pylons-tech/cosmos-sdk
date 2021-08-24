@@ -1,9 +1,9 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/address"
+	"github.com/Pylons-tech/cosmos-sdk/types/kv"
 )
 
 const (
@@ -60,6 +60,7 @@ func CreateAccountBalancesPrefix(addr []byte) []byte {
 // CreateDenomAddressPrefix creates a prefix for a reverse index of denomination
 // to account balance for that denomination.
 func CreateDenomAddressPrefix(denom string) []byte {
-	key := append(DenomAddressPrefix, []byte(denom)...)
+	key := DenomAddressPrefix
+	key = append(key, []byte(denom)...)
 	return append(key, 0)
 }

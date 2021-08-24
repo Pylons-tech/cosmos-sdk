@@ -6,10 +6,10 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	authtypes "github.com/Pylons-tech/cosmos-sdk/x/auth/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/gov/types"
 )
 
 // Keeper defines the governance module Keeper

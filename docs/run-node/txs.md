@@ -93,7 +93,7 @@ Before generating a transaction, a new instance of a `TxBuilder` needs to be cre
 
 ```go
 import (
-	"github.com/cosmos/cosmos-sdk/simapp"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
 )
 
 func sendTx() error {
@@ -112,7 +112,7 @@ We can also set up some keys and addresses that will send and receive the transa
 
 ```go
 import (
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
 )
 
 priv1, _, addr1 := testdata.KeyTestPubAddr()
@@ -124,7 +124,7 @@ Populating the `TxBuilder` can be done via its [methods](https://github.com/cosm
 
 ```go
 import (
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 func sendTx() error {
@@ -162,9 +162,9 @@ In the current `TxBuilder`'s API, both steps are done using the same method: `Se
 
 ```go
 import (
-    cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	xauthsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+    cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	xauthsigning "github.com/Pylons-tech/cosmos-sdk/x/auth/signing"
 )
 
 func sendTx() error {
@@ -250,7 +250,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx"
 )
 
 func sendTx(ctx context.Context) error {
@@ -294,9 +294,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx"
+	authtx "github.com/Pylons-tech/cosmos-sdk/x/auth/tx"
 )
 
 func simulateTx() error {

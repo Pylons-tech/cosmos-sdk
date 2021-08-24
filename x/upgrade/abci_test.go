@@ -14,14 +14,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/types/module"
+	govtypes "github.com/Pylons-tech/cosmos-sdk/x/gov/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/upgrade"
+	"github.com/Pylons-tech/cosmos-sdk/x/upgrade/keeper"
+	"github.com/Pylons-tech/cosmos-sdk/x/upgrade/types"
 )
 
 type TestSuite struct {

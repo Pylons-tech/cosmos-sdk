@@ -9,7 +9,7 @@ import (
 	tmprototypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
 )
 
 func TestGetBlockRentionHeight(t *testing.T) {

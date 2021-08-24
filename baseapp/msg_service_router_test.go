@@ -10,12 +10,12 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/Pylons-tech/cosmos-sdk/baseapp"
+	"github.com/Pylons-tech/cosmos-sdk/client/tx"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/Pylons-tech/cosmos-sdk/x/auth/signing"
 )
 
 func TestRegisterMsgService(t *testing.T) {

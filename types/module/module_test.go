@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec/types"
 	"github.com/gorilla/mux"
 
 	"github.com/golang/mock/gomock"
@@ -15,11 +15,11 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/tests/mocks"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/tests/mocks"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/module"
 )
 
 var errFoo = errors.New("dummy")

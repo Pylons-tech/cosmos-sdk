@@ -14,10 +14,10 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/Pylons-tech/cosmos-sdk/crypto/types"
 )
 
 type keyData struct {

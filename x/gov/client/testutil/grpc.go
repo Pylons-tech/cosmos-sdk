@@ -5,11 +5,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/Pylons-tech/cosmos-sdk/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/rest"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	grpctypes "github.com/Pylons-tech/cosmos-sdk/types/grpc"
+	"github.com/Pylons-tech/cosmos-sdk/x/gov/types"
 )
 
 func (s *IntegrationTestSuite) TestGetProposalGRPC() {

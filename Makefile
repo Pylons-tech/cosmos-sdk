@@ -143,7 +143,8 @@ build-simd-linux: go.sum $(BUILDDIR)/
 cosmovisor:
 	$(MAKE) -C cosmovisor cosmovisor
 
-.PHONY: build build-linux build-simd-all build-simd-linux cosmovisor
+#.PHONY: build build-linux build-simd-all build-simd-linux cosmovisor
+.PHONY: build build-linux build-simd-all build-simd-linux
 
 mockgen_cmd=go run github.com/golang/mock/mockgen
 

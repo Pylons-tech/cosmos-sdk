@@ -1,8 +1,8 @@
 package feegrant
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	auth "github.com/Pylons-tech/cosmos-sdk/x/auth/types"
 )
 
 // AccountKeeper defines the expected auth Account Keeper (noalias)

@@ -1,10 +1,10 @@
 package v043
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v040auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v040"
+	"github.com/Pylons-tech/cosmos-sdk/store/prefix"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/address"
+	v040auth "github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/v040"
 )
 
 // MigratePrefixAddress is a helper function that migrates all keys of format:
@@ -19,7 +19,7 @@ func MigratePrefixAddress(store sdk.KVStore, prefixBz []byte) {
 
 	for ; oldStoreIter.Valid(); oldStoreIter.Next() {
 		addr := oldStoreIter.Key()
-		var newStoreKey []byte = prefixBz
+		newStoreKey := prefixBz
 		newStoreKey = append(newStoreKey, address.MustLengthPrefix(addr)...)
 
 		// Set new key on store. Values don't change.

@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package grpc_test
@@ -17,21 +18,21 @@ import (
 	"google.golang.org/grpc/metadata"
 	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	reflectionv1 "github.com/cosmos/cosmos-sdk/client/grpc/reflection"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	reflectionv2 "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	reflectionv1 "github.com/Pylons-tech/cosmos-sdk/client/grpc/reflection"
+	clienttx "github.com/Pylons-tech/cosmos-sdk/client/tx"
+	reflectionv2 "github.com/Pylons-tech/cosmos-sdk/server/grpc/reflection/v2alpha1"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/network"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	grpctypes "github.com/Pylons-tech/cosmos-sdk/types/grpc"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx"
+	txtypes "github.com/Pylons-tech/cosmos-sdk/types/tx"
+	"github.com/Pylons-tech/cosmos-sdk/types/tx/signing"
+	authclient "github.com/Pylons-tech/cosmos-sdk/x/auth/client"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
+	stakingtypes "github.com/Pylons-tech/cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {

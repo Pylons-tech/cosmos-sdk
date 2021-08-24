@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	v040auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v040"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/kv"
+	v040auth "github.com/Pylons-tech/cosmos-sdk/x/auth/migrations/v040"
 )
 
 const (

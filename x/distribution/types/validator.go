@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
 )
 
 // create a new ValidatorHistoricalRewards

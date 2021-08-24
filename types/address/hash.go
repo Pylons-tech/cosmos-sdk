@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	"github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/internal/conv"
+	"github.com/Pylons-tech/cosmos-sdk/types/errors"
 )
 
 // Len is the length of base addresses

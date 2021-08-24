@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v039slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v039"
-	v040slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v040"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	v039slashing "github.com/Pylons-tech/cosmos-sdk/x/slashing/migrations/v039"
+	v040slashing "github.com/Pylons-tech/cosmos-sdk/x/slashing/migrations/v040"
 )
 
 func TestMigrate(t *testing.T) {

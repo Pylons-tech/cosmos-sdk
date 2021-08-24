@@ -3,9 +3,9 @@ package module
 import (
 	"github.com/gogo/protobuf/grpc"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/Pylons-tech/cosmos-sdk/codec"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	sdkerrors "github.com/Pylons-tech/cosmos-sdk/types/errors"
 )
 
 // Configurator provides the hooks to allow modules to configure and register

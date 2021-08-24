@@ -229,7 +229,7 @@ every module that implements it in order to populate the `InterfaceRegistry`.
 The SDK will provide support methods `MarshalInterface` and `UnmarshalInterface` to hide a complexity of wrapping interface types into `Any` and allow easy serialization.
 
 ```go
-import "github.com/cosmos/cosmos-sdk/codec"
+import "github.com/Pylons-tech/cosmos-sdk/codec"
 
 // note: eviexported.Evidence is an interface type
 func MarshalEvidence(cdc codec.BinaryCodec, e eviexported.Evidence) ([]byte, error) {

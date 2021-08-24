@@ -10,13 +10,13 @@ import (
 	"github.com/spf13/cobra"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	v040 "github.com/cosmos/cosmos-sdk/x/genutil/migrations/v040"
-	v043 "github.com/cosmos/cosmos-sdk/x/genutil/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/Pylons-tech/cosmos-sdk/client"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/version"
+	v040 "github.com/Pylons-tech/cosmos-sdk/x/genutil/migrations/v040"
+	v043 "github.com/Pylons-tech/cosmos-sdk/x/genutil/migrations/v043"
+	"github.com/Pylons-tech/cosmos-sdk/x/genutil/types"
 )
 
 const flagGenesisTime = "genesis-time"

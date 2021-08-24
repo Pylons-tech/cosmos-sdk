@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/rest"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/x/authz"
+	"github.com/Pylons-tech/cosmos-sdk/x/authz/client/cli"
+	banktypes "github.com/Pylons-tech/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryGrantGRPC() {

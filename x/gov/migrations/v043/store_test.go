@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v040gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v040"
-	v043gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/Pylons-tech/cosmos-sdk/simapp"
+	"github.com/Pylons-tech/cosmos-sdk/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/testdata"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	v040gov "github.com/Pylons-tech/cosmos-sdk/x/gov/migrations/v040"
+	v043gov "github.com/Pylons-tech/cosmos-sdk/x/gov/migrations/v043"
+	"github.com/Pylons-tech/cosmos-sdk/x/gov/types"
 )
 
 func TestMigrateStore(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/Pylons-tech/cosmos-sdk/testutil"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	grpctypes "github.com/Pylons-tech/cosmos-sdk/types/grpc"
+	"github.com/Pylons-tech/cosmos-sdk/types/query"
+	"github.com/Pylons-tech/cosmos-sdk/x/slashing/types"
 )
 
 func (s *IntegrationTestSuite) TestGRPCQueries() {

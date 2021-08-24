@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/Pylons-tech/cosmos-sdk/client/keys"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keyring"
 )
 
 type testCases struct {

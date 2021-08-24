@@ -12,17 +12,17 @@ import (
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 	"github.com/tendermint/tendermint/rpc/client/http"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/Pylons-tech/cosmos-sdk/client/flags"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/hd"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keyring"
+	"github.com/Pylons-tech/cosmos-sdk/crypto/keys/ed25519"
+	clitestutil "github.com/Pylons-tech/cosmos-sdk/testutil/cli"
+	"github.com/Pylons-tech/cosmos-sdk/testutil/network"
+	sdk "github.com/Pylons-tech/cosmos-sdk/types"
+	"github.com/Pylons-tech/cosmos-sdk/types/query"
+	banktestutil "github.com/Pylons-tech/cosmos-sdk/x/bank/client/testutil"
+	"github.com/Pylons-tech/cosmos-sdk/x/staking/client/cli"
+	"github.com/Pylons-tech/cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {
